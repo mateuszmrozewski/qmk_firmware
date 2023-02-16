@@ -24,14 +24,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,   LCTL_T(KC_A),    LALT_T(KC_S),     LGUI_T(KC_D),     LSFT_T(KC_F),    KC_G,               
     KC_H,     LSFT_T(KC_J),    LGUI_T(KC_K),     LALT_T(KC_L),     LCTL_T(KC_SCLN),  KC_QUOT,
     
-    KC_DELETE,   LT(_NUMPAD, KC_Z),     KC_X,     KC_C,     KC_V,      KC_B,               KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH, CAPS_WORD,
+    KC_DELETE,   LT(_NUMPAD, KC_Z),     KC_X,     KC_C,     KC_V,      KC_B,               KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH, QK_CAPS_WORD_TOGGLE,
                                             KC_LGUI,   KC_SPC,    LT(_NUMPAD, KC_ENTER),   OSL(_SYMBOL),    TT(_NAVIGATE)
 
   ),
   
   [_NUMPAD] = LAYOUT(
     _______,  XXXXXXX,  KC_F7,    KC_F8,  KC_F9,    KC_F10,            XXXXXXX,  KC_7,  KC_8,  KC_9,  KC_DOT,  _______,
-    _______,  KC_LCTL,  LALT_T(F4),  LGUI_T(F5),  LSFT_T(F6),   KC_F11,            KC_MINUS,  LSFT_T(KC_4),  LGUI_T(KC_5), LALT_T(KC_6), LCTL_T(KC_0),   XXXXXXX,
+    _______,  KC_LCTL,  LALT_T(KC_F4),  LGUI_T(KC_F5),  LSFT_T(KC_F6),   KC_F11,            KC_MINUS,  LSFT_T(KC_4),  LGUI_T(KC_5), LALT_T(KC_6), LCTL_T(KC_0),   XXXXXXX,
     _______,  XXXXXXX,   KC_F1,  KC_F2,  KC_F3,   KC_F12,            XXXXXXX,  KC_1,   KC_2,  KC_3,  KC_UNDERSCORE, XXXXXXX,
                                             TO(_QWERTY),   KC_SPC,  LT(_NUMPAD, KC_ENT),   OSL(_SYMBOL), TO(_NAVIGATE)
   ),
