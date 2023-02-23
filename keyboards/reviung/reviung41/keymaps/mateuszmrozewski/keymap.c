@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   
   [_NAVIGATE] = LAYOUT(
-    _______,  KC_INSERT,     KC_PAGE_DOWN,     KC_UP,     KC_PAGE_UP,      KC_DELETE,               XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,_______,
+    _______,  KC_INSERT,     KC_PAGE_DOWN,     KC_UP,     KC_PAGE_UP,      KC_DELETE,               RGB_MOD,RGB_RMOD,XXXXXXX,XXXXXXX,XXXXXXX,_______,
     _______,  KC_HOME,  KC_LEFT,   KC_DOWN,  KC_RIGHT,   KC_END,            XXXXXXX,KC_LSFT,KC_LGUI,KC_LALT,KC_LCTL,XXXXXXX,
     _______,  XXXXXXX,   XXXXXXX,  XXXXXXX,  XXXXXXX,   XXXXXXX,            XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,XXXXXXX,
                                             TO(_QWERTY),   KC_SPC, LT(_NUMPAD, KC_ENT),  OSL(_SYMBOL), TO(_NAVIGATE)
