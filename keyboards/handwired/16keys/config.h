@@ -17,7 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "config_common.h"
+//#include "config_common.h"
 
 /* key matrix size */
 #define MATRIX_ROWS 4
@@ -40,8 +40,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 
-// #define ANALOG_JOYSTICK_X_AXIS_PIN F4
-// #define ANALOG_JOYSTICK_Y_AXIS_PIN F5
+#define ANALOG_JOYSTICK_X_AXIS_PIN F4
+#define ANALOG_JOYSTICK_Y_AXIS_PIN F5
+#define ANALOG_JOYSTICK_AXIS_MIN 140
+#define ANALOG_JOYSTICK_AXIS_MAX 750
+#define ANALOG_JOYSTICK_SPEED_REGULATOR 18
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW

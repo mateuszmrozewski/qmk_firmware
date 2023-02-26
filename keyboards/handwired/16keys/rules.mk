@@ -17,9 +17,9 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no       # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 
-# POINTING_DEVICE_ENABLE = yes
-# POINTING_DEVICE_DRIVER = analog_joystick
+POINTING_DEVICE_ENABLE = yes
+POINTING_DEVICE_DRIVER = analog_joystick
 
 #JOYSTICK_ENABLE = yes
-OLED_ENABLE = yes
-OLED_DRIVER = SSD1306
+# OLED_ENABLE = yes
+# OLED_DRIVER = SSD1306
