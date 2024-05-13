@@ -398,6 +398,22 @@ See also: [Leader Key](feature_leader_key.md)
 |---------|------------------------|
 |`QK_LEAD`|Begins a leader sequence|
 
+## LED Matrix :id=led-matrix
+
+See also: [LED Matrix](feature_led_matrix.md)
+
+|Key                            |Aliases  |Description                        |
+|-------------------------------|---------|-----------------------------------|
+|`QK_LED_MATRIX_ON`             |`LM_ON`  |Turn on LED Matrix                 |
+|`QK_LED_MATRIX_OFF`            |`LM_OFF` |Turn off LED Matrix                |
+|`QK_LED_MATRIX_TOGGLE`         |`LM_TOGG`|Toggle LED Matrix on or off        |
+|`QK_LED_MATRIX_MODE_NEXT`      |`LM_NEXT`|Cycle through animations           |
+|`QK_LED_MATRIX_MODE_PREVIOUS`  |`LM_PREV`|Cycle through animations in reverse|
+|`QK_LED_MATRIX_BRIGHTNESS_UP`  |`LM_BRIU`|Increase the brightness level      |
+|`QK_LED_MATRIX_BRIGHTNESS_DOWN`|`LM_BRID`|Decrease the brightness level      |
+|`QK_LED_MATRIX_SPEED_UP`       |`LM_SPDU`|Increase the animation speed       |
+|`QK_LED_MATRIX_SPEED_DOWN`     |`LM_SPDD`|Decrease the animation speed       |
+
 ## Magic Keycodes :id=magic-keycodes
 
 See also: [Magic Keycodes](keycodes_magic.md)
@@ -803,6 +819,15 @@ See also: [Programmable Button](feature_programmable_button.md)
 |`QK_PROGRAMMABLE_BUTTON_31`|`PB_31`|Programmable button 31|
 |`QK_PROGRAMMABLE_BUTTON_32`|`PB_32`|Programmable button 32|
 
+## Repeat Key :id=repeat-key
+
+See also: [Repeat Key](feature_repeat_key.md)
+
+|Keycode                |Aliases  |Description                          |
+|-----------------------|---------|-------------------------------------|
+|`QK_REPEAT_KEY`        |`QK_REP` |Repeat the last pressed key          |
+|`QK_ALT_REPEAT_KEY`    |`QK_AREP`|Perform alternate of the last key    |
+
 ## Space Cadet :id=space-cadet
 
 See also: [Space Cadet](feature_space_cadet.md)
@@ -839,8 +864,8 @@ See also: [Unicode Support](feature_unicode.md)
 |Key                         |Aliases  |Description                                                     |
 |----------------------------|---------|----------------------------------------------------------------|
 |`UC(c)`                     |         |Send Unicode code point `c`, up to `0x7FFF`                     |
-|`X(i)`                      |         |Send Unicode code point at index `i` in `unicode_map`           |
-|`XP(i, j)`                  |         |Send Unicode code point at index `i`, or `j` if Shift/Caps is on|
+|`UM(i)`                     |         |Send Unicode code point at index `i` in `unicode_map`           |
+|`UP(i, j)`                  |         |Send Unicode code point at index `i`, or `j` if Shift/Caps is on|
 |`QK_UNICODE_MODE_NEXT`      |`UC_NEXT`|Cycle through selected input modes                              |
 |`QK_UNICODE_MODE_PREVIOUS`  |`UC_PREV`|Cycle through selected input modes in reverse                   |
 |`QK_UNICODE_MODE_MACOS`     |`UC_MAC` |Switch to macOS input                                           |
